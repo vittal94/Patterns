@@ -13,6 +13,7 @@ import org.example.javaCode.Prototype.Copyable.TestCopyable;
 import org.example.javaCode.decorator.javaDev.TestJavaDev;
 import org.example.javaCode.decorator.notificationService.TestNotifier;
 import org.example.javaCode.facade.sprintRunner.SprintRunner;
+import org.example.javaCode.flyweight.bookStore.TestBookStore;
 import org.example.javaCode.flyweight.developer.ProjectRunner;
 
 import java.text.NumberFormat;
@@ -41,12 +42,14 @@ public class Main {
         //TestJavaDev.run();
        // TestNotifier.run();
        // SprintRunner.run();
-        ProjectRunner.run();
+        //ProjectRunner.run();
+        TestBookStore.run();
 
 
 
 
     }
+
 
 
 }
