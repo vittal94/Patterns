@@ -9,6 +9,8 @@ import org.example.kotlinCode.Singelton.GameConfig.testGameConfig
 import org.example.kotlinCode.builder.person.testPerson
 import org.example.kotlinCode.composite.movieComponent.movieService
 import org.example.kotlinCode.decorator.logginMap.testLoggedOperationMap
+import org.example.kotlinCode.flyweight.gameRobot.testGameRobot
+import java.io.File
 
 fun main() {
 
@@ -20,6 +22,8 @@ fun main() {
 //testBureau()
     //TestScoring.run()
     //movieService()
-    testLoggedOperationMap()
+   // testLoggedOperationMap()
+    testGameRobot()
+
 }
 
