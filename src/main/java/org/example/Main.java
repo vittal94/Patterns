@@ -15,6 +15,9 @@ import org.example.javaCode.decorator.notificationService.TestNotifier;
 import org.example.javaCode.facade.sprintRunner.SprintRunner;
 import org.example.javaCode.flyweight.bookStore.TestBookStore;
 import org.example.javaCode.flyweight.developer.ProjectRunner;
+import org.example.javaCode.proxy.gitProject.TestGitProject;
+import org.example.javaCode.proxy.internet.cashing.TestVideoDownloader;
+import org.example.javaCode.proxy.internet.filtering.TestFilteringProxy;
 
 import java.text.NumberFormat;
 import java.util.*;
@@ -43,10 +46,11 @@ public class Main {
        // TestNotifier.run();
        // SprintRunner.run();
         //ProjectRunner.run();
-        TestBookStore.run();
-
-
-
+        //TestBookStore.run();
+       // TestGitProject.run();
+        //TestFilteringProxy.run();
+        TestVideoDownloader.run();
+        
 
     }
 

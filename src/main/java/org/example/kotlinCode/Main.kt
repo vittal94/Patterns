@@ -10,6 +10,7 @@ import org.example.kotlinCode.builder.person.testPerson
 import org.example.kotlinCode.composite.movieComponent.movieService
 import org.example.kotlinCode.decorator.logginMap.testLoggedOperationMap
 import org.example.kotlinCode.flyweight.gameRobot.testGameRobot
+import org.example.kotlinCode.proxy.catImage.testCatImage
 import java.io.File
 
 fun main() {
@@ -23,7 +24,8 @@ fun main() {
     //TestScoring.run()
     //movieService()
    // testLoggedOperationMap()
-    testGameRobot()
+    //testGameRobot()
+    testCatImage()
 
 }
 
