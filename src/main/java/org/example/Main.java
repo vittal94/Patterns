@@ -10,6 +10,7 @@ import org.example.javaCode.Bridge.seller.Seller;
 import org.example.javaCode.Composite.amazonDelivery.TestAmazonDelivery;
 import org.example.javaCode.Composite.developerTeam.TestTeamDeveloper;
 import org.example.javaCode.Prototype.Copyable.TestCopyable;
+import org.example.javaCode.chainOfResponsibility.managerNotifier.BugTracker;
 import org.example.javaCode.decorator.javaDev.TestJavaDev;
 import org.example.javaCode.decorator.notificationService.TestNotifier;
 import org.example.javaCode.facade.sprintRunner.SprintRunner;
@@ -49,7 +50,8 @@ public class Main {
         //TestBookStore.run();
        // TestGitProject.run();
         //TestFilteringProxy.run();
-        TestVideoDownloader.run();
+       // TestVideoDownloader.run();
+        BugTracker.run();
         
 
     }
