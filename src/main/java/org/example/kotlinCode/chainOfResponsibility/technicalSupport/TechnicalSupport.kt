@@ -2,9 +2,7 @@ package org.example.kotlinCode.chainOfResponsibility.technicalSupport
 
 
 
-fun main() {
 
-}
 
 abstract class AbstractSupportCenterHandler(private val requestType: RequestType) {
     enum class RequestType {
@@ -62,6 +60,13 @@ object SupportCenterClient {
 
 fun test() {
      SupportCenterClient.technicalHandler
-        .receiveRequest(AbstractSupportCenterHandler.RequestType.TECHNICAL, "technical issue.").run(::println)
+        .receiveRequest(
+            AbstractSupportCenterHandler.RequestType.BILL,
+            "technical issue."
+        ).run(::println)
 
+}
+
+fun main() {
+test()
 }
