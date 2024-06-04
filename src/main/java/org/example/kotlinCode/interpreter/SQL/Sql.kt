@@ -42,7 +42,6 @@ class WhereClause(private val conditions: String) {
 
 
 
-
 fun main() {
     println(sql)
 }
