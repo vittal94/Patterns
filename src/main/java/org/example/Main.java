@@ -4,6 +4,9 @@ package org.example;
 import org.example.javaCode.command.notificationService.TestNotificationService;
 import org.example.javaCode.command.smartHome.TestSmartHome;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -37,15 +40,16 @@ public class Main {
         //BugTracker.run();
         //DataBaseRunner.test();
        // TestSmartHome.run();
-        TestNotificationService.run();
+       // TestNotificationService.run();
 
 
 
     }
 
 
-
 }
+
+
 
 
 
