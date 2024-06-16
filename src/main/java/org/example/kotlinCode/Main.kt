@@ -25,7 +25,10 @@ fun main() {
     //movieService()
    // testLoggedOperationMap()
     //testGameRobot()
-    testCatImage()
+   //testCatImage()
+
+
+
 
 }
 

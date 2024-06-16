@@ -9,8 +9,5 @@ public class Runner {
         LoginButton loginButton = new LoginButton();
 
         loginButton.setMediator(dialog);
-
-
-
     }
 }
