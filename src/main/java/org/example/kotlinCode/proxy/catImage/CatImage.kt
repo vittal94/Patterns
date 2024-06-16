@@ -18,3 +18,6 @@ fun testCatImage() {
     catImage.image
 
 }
+fun main() {
+    testCatImage()
+}
