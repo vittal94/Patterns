@@ -6,6 +6,7 @@ import org.example.javaCode.command.smartHome.TestSmartHome;
 
 import java.util.*;
 import java.util.function.Function;
+import javax.xml.parsers.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -40,37 +41,15 @@ public class Main {
        // TestSmartHome.run();
        // TestNotificationService.run();
 
-    }
-}
-
-interface Shape {
-    void draw();
-}
-
-interface Color {
-    void fill();
-}
-
-abstract class AbstractShape implements Shape {
-    protected Color color;
-
-    public AbstractShape(Color color) {
-        this.color = color;
-    }
-}
-
-class Circle extends AbstractShape {
 
 
-    public Circle(Color color) {
-        super(color);
+
     }
 
-    @Override
-    public void draw() {
-        System.out.println("Circle of color: " + color);
-    }
 }
+
+
+
 
 
 

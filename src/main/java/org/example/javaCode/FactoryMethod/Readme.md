@@ -1,5 +1,8 @@
-It defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+GoF definition - it defines an interface for creating an object, but lets subclasses decide which class to instantiate.
 The factory method pattern lets a class defer instantiation to subclasses.
+
+You start with an abstract class called creator, that defines  the basic structure of an application, and the subclasses
+(that derived from this abstract class) take the responsibility of doing the actual instantiation process.
 
 Advantages of using factory method:
 -you separate the code that varies from the code that does not vary.
