@@ -1,7 +1,5 @@
 package org.example.kotlinCode
 
-import kotlin.reflect.KFunction0
-
 fun main() {
 
     //BankApp.run()
@@ -16,9 +14,5 @@ fun main() {
     //testGameRobot()
    //testCatImage()
 
-
-
 }
-
-
 

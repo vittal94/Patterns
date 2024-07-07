@@ -41,11 +41,7 @@ public class Main {
        // TestSmartHome.run();
        // TestNotificationService.run();
 
-
-
-
     }
-
 }
 
 
